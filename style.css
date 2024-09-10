@@ -99,7 +99,7 @@ nav {
 .btn-2:hover {
     background-color: #1C8DE9;
     color: black;
-    border: 5px solid #060606;
+    border: 3px solid #060606;
 }
 
 a.btn-1, a.btn-2 {
@@ -110,6 +110,7 @@ a.btn-1, a.btn-2 {
     transition-duration: 0.4s;
     cursor: pointer;
     margin-left: 3%;
+    padding: 10px 15px;
 }
 
 /* Mobile */
