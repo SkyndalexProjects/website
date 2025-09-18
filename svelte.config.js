@@ -19,15 +19,6 @@ const config = {
 		paths: {
 			base: process.argv.includes("dev") ? "" : process.env.BASE_PATH
 		},
-		prerender: {
-			handleHttpError: ({ status, path, ref }) => {
-				if (status === 500) {
-					console.warn(`Prerendering failed for ${path} with status ${status}`);
-					return;
-				}
-				throw new Error(`${status} error at ${path}`);
-			}
-		}
 	}
 };
 
