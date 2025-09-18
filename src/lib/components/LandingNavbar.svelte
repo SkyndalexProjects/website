@@ -1,13 +1,12 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
 	import { setLocale } from '$lib/paraglide/runtime';
-	const supportedLocales = ['en', 'pl'];
-	const locale = ((): 'en' | 'pl' => {
-		const found = navigator.languages.find((l) => supportedLocales.includes(l.split('-')[0]));
-		const lang = found ? found.split('-')[0] : 'en';
-		return lang === 'pl' ? 'pl' : 'en';
-	})();
-	setLocale(locale);
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		const locale = document.documentElement.lang === 'pl' ? 'pl' : 'en';
+		setLocale(locale);
+	}
 </script>
 
 <nav>
