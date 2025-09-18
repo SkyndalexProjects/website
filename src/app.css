@@ -1,0 +1,14 @@
+:root {
+	--font-vietnam: 'Be Vietnam Pro', sans-serif;
+	--font-poppins: 'Poppins', sans-serif;
+	--color-bg-start: #1e2230;
+	--color-bg-end: #0f1117;
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}

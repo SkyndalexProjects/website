@@ -1,0 +1,11 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"subtitle": "Coś tu kiedyś będzie",
+	"detailed_subtitle": "Aktualnie trwają prace nad o wiele bardziej rozbudowaną wersją bota. Zapraszamy do śledzenia postępów i przyłączenie się do produkcji na naszym serwerze wsparcia. Będą to ogromne zmiany.",
+	"add_btn": "Dodaj bota",
+	"join_support_btn": "Dołącz na serwer",
+	"home": "Strona główna",
+	"policy": "Polityka prywatności",
+	"links": "Linki",
+	"project": "Projekt"
+}

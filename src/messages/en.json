@@ -1,0 +1,11 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"subtitle": "Something will be here",
+	"detailed_subtitle": "Work is currently underway on a much more advanced version of the bot. We encourage you to follow the progress and join the development on our support server. Huge changes are coming.",
+	"add_btn": "Add bot",
+	"join_support_btn": "Join support",
+	"home": "Home",
+	"policy": "Policy & Privacy",
+	"links": "Links",
+	"project": "Project"
+}
